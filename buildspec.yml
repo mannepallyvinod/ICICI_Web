@@ -7,7 +7,7 @@ phases:
       java: corretto8
   pre_build:
     commands:
-      - echo 'date' & 'time'
+      - echo 'date' 
       - mvn clean
   build:
     commands:
